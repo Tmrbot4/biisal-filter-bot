@@ -44,8 +44,8 @@ REPO_OWNER = "Biisal"
 
 # Bot information
 SESSION = environ.get('SESSION', 'radhe-radhe2')
-API_ID = int(environ.get('API_ID', '27669520'))
-API_HASH = environ.get('API_HASH', '9043642c94f60ea241c013ee4b0aafdb')
+API_ID = int(environ.get('API_ID', '23171051'))
+API_HASH = environ.get('API_HASH', '10331d5d712364f57ffdd23417f4513c')
 BOT_TOKEN = environ.get('BOT_TOKEN', "") #if you are going to bot token here make sure your repo is private..
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 
@@ -96,7 +96,7 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_download_movieee')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Kʏᴀ ʀᴇ Bʜɪᴋᴍᴀɴɢᴀ 😑,Kʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ʜᴀɪ ?')
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002051085822'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002055823699'))
 VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002093947293'))
 NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002051085822'))
 BIN_CHNL = int(environ.get('BIN_CHNL', '-1002001183394'))

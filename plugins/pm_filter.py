@@ -1870,7 +1870,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],[
                     InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
                   ],[
-                    InlineKeyboardButton('🚫  ᴅᴍᴄᴀ', url="https://telegra.ph/Contant-Removal"),
+                    InlineKeyboardButton('🚫  REQUEST', url="https://t.me/TMR_movie_request_group"),
                     InlineKeyboardButton('Fᴏʀᴄᴇ Sᴜʙ 🚩', callback_data='forcesub')
 
                 ]]
@@ -2157,7 +2157,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("🤵ᴄᴏɴᴛᴀᴄᴛ", url="telegram.me/Biisal")
+                    InlineKeyboardButton("🤵ᴄᴏɴᴛᴀᴄᴛ", url="https://t.me/Vishalku25")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 

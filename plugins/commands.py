@@ -26,8 +26,8 @@ import aiohttp
 BATCH_FILES = {}
 
 async def ai_generate_response(user_text):
-    obj = {'query': user_text, 'bot_name': "Bisal Filter Bot", 'bot_admin': 'Biisal'}  
-    url = f"https://bisal-ai-api.vercel.app/biisal"
+    obj = {'query': user_text, 'bot_name': "Vishal Filter Bot", 'bot_admin': 'Vɪsʜᴀʟ'}  
+    url = f"https://t.me/TMR_update_channel"
     async with aiohttp.ClientSession() as session:
         async with session.post(url, data=obj) as response:
             if response.status == 200:
@@ -78,7 +78,7 @@ async def aiTextSend(message, question, bot):
                 [
                     [
                         InlineKeyboardButton(
-                            "ᴀᴅᴍɪɴ 🚩", url=f"https://biisal.vercel.app"
+                            "ᴀᴅᴍɪɴ 🚩", url=f"https://t.me/Vishalku25"
                         )
                     ]
                 ]

@@ -68,7 +68,7 @@ auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP', '-1004129265405')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1004135024301')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002023455423')
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1004169525756')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
@@ -81,10 +81,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '8cefe6e80dc4dd1f046e74f32e3d3fee248306f3') #use my api so i can make some money 🤣..just kidding guys..mai already aamir hoon🥱 
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'Ziplinker.net')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '8e869e3bd0f04a3dd1282d4e0a7bb52224a3a576')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'OnePageLink.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'da8ddb823eb0ac5d36a3ab19e9012bf4b8652200') #use my api so i can make some money 🤣..just kidding guys..mai already aamir hoon🥱 
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'gplinks.com')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '8cefe6e80dc4dd1f046e74f32e3d3fee248306f3')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()] #Add a channel ID here. When you send any file to this channel, the bot will delete the file details from the MongoDB 
 MAX_B_TN = environ.get("MAX_B_TN", "20")
@@ -92,7 +92,7 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TMR_movie_request_group')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/the_movie_rock')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_download_movieee')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TMR_how_to_downlod/2')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Kʏᴀ ʀᴇ Bʜɪᴋᴍᴀɴɢᴀ 😑,Kʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ʜᴀɪ ?')
 
@@ -101,7 +101,7 @@ VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002055823699'))
 NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002055823699'))
 BIN_CHNL = int(environ.get('BIN_CHNL', '-1002055823699'))
 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'bisal_files')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TMR_Movie_request')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
